@@ -3,7 +3,7 @@ import { Contract } from "ethers";
 
 async function main() {
   // Compile the contract
-  const MyContract = await ethers.getContractFactory("MyContract");
+  const MyContract = await ethers.getContractFactory("getnumber");
 
   // Deploy the contract
   const myContract: Contract = await MyContract.deploy();
